@@ -1,0 +1,28 @@
+div {
+  height: 50px;
+  width: 100px;
+  border: 2px lightgray;
+  border-radius: 5px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-family: 'Amatic Sc', helvetica;
+  font-size: 40px;
+}
+
+#one {
+  background-color: gray;
+}
+
+#two {
+  background-color: lightgreen;
+
+}
+
+#three {
+  background-color: lightblue;
+}
+
+#four {
+  background-color: teal;
+}

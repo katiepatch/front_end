@@ -1,0 +1,35 @@
+/*selector {
+  property: value;
+}*/
+
+html {
+  background-color: #9BE5D3;
+  color: gray;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  color: teal;
+  text-align: center;
+}
+
+a{
+  color: gray;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
+  text-decoration: none;
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+img {
+  border-radius: 10px;
+}
