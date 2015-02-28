@@ -1,19 +1,27 @@
 /*selector {
   property: value;
 }*/
-
-html {
+body {
   background-color: #9BE5D3;
   color: gray;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Amatic SC', helvetica;
   font-size: 30px;
   text-align: center;
 }
 
-h1 {
+
+
+.title {
   font-size: 50px;
   color: teal;
-  text-align: center;
+}
+
+.description {
+  padding: 10px;
+}
+
+.pic img {
+
 }
 
 a{
@@ -31,5 +39,12 @@ a:hover {
 }
 
 img {
-  border-radius: 10px;
+  border-radius: 50px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2em;
 }
