@@ -9,15 +9,59 @@ body {
   text-align: center;
 }
 
+/* navbar */
+.navbar-transparent {
+    color: teal;
 
+}
+/* title */
+.navbar-transparent .navbar-brand {
+    color: teal;
+    font-size: 40px;
 
-.title {
-  font-size: 50px;
-  color: teal;
+}
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:focus {
+    color: rgba(0, 0, 0, .2);
+
+}
+}
+/* link */
+.navbar-transparent .navbar-nav > li > a {
+    color: teal;
+
+}
+}
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:focus {
+    color: rgba(0, 0, 0, .2);
+    background-color: #9BE5D3;;
+
+}
+.navbar-transparent .navbar-nav > .active > a,
+.navbar-transparent .navbar-nav > .active > a:hover,
+.navbar-transparent .navbar-nav > .active > a:focus {
+    color: rgba(0, 0, 0, .2);
+
+}
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+    color: teal;
+
 }
 
+/* caret */
+.navbar-transparent .navbar-nav > .dropdown > a .caret {
+    border-top-color: teal;
+    border-bottom-color: #FFF;
+}
+
+
+
+
 .description {
-  padding: 10px;
+  padding-bottom: 10px;
 }
 
 .pic img {
@@ -30,19 +74,22 @@ a{
 }
 
 a:visited {
-  color: gray;
+  color: teal;
   text-decoration: none;
 }
 
 a:hover {
-    color: rgba(0, 0, 0, 0.2);
+   color: rgba(0, 0, 0, 0.2);
+    text-decoration: none;
 }
 
 img {
-  border-radius: 50px;
+  border-radius: 35px;
+  margin: 10px;
 }
 
 footer {
+  background-color: #9BE5D3;
   position: absolute;
   bottom: 0;
   width: 100%;
